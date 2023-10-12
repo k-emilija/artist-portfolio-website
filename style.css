@@ -52,6 +52,11 @@ body {
     "cup insta insta"
     "foam foam dimensional"
     "foam foam dimensional";
+
+  gap: 16px;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 #eth {
