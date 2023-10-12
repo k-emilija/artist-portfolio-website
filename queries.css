@@ -23,4 +23,22 @@
       "foam foam"
       "dimensional dimensional";
   }
+  .project .overlay {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 464px) {
+  .project-grid {
+    grid-template-areas:
+      "eth eth"
+      "alphabet alphabet"
+      "traveler traveler"
+      "cube cube"
+      "astro astro"
+      "insta insta"
+      "cup cup"
+      "foam foam"
+      "dimensional dimensional";
+  }
 }
