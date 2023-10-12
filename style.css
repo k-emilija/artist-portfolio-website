@@ -1,0 +1,24 @@
+.project {
+  width: 300px;
+  position: relative;
+}
+
+/* The image overflows the container, so the lines below are based on the parent element -> I am telling the image below to be 100% of width and height of it's parent container "project". */
+.project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
