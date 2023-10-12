@@ -1,7 +1,21 @@
+/**************************/
+/* GENERAL */
+/**************************/
 body {
   font-family: "Poppins", sans-serif;
 }
 
+/**************************/
+/* HEADER AND NAVIGATION */
+/**************************/
+.navbar .right img {
+  height: 24px;
+  width: 24px;
+}
+
+/**************************/
+/* PROJECT SECTION - GRID */
+/**************************/
 .project {
   position: relative;
 }
