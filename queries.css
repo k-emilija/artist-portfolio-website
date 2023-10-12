@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1100px) {
+  .project-grid {
+    max-width: 100%;
+    grid-template-areas:
+      "eth eth"
+      "alphabet traveler"
+      "cube astro"
+      "insta insta"
+      "cup foam"
+      "dimensional dimensional";
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project-grid {
+    grid-template-areas:
+      "eth eth"
+      "alphabet alphabet"
+      "traveler traveler"
+      "cube astro"
+      "insta insta"
+      "cup cup"
+      "foam foam"
+      "dimensional dimensional";
+  }
+}
