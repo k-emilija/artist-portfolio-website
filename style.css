@@ -29,7 +29,7 @@ body {
   align-items: center;
 
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
 
@@ -42,6 +42,11 @@ body {
   cursor: pointer;
 }
 
+.overlay.white {
+  color: white;
+}
+
+/* GRID TEMPLATE AREAS */
 .project-grid {
   display: grid;
   grid-template-areas:
