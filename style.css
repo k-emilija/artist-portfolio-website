@@ -70,6 +70,44 @@ body {
 }
 
 /**************************/
+/* MOBILE NAVIGATION */
+/**************************/
+
+.mobileNav {
+  width: 80px;
+  height: 100vh;
+  background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 5;
+
+  padding: 16px;
+}
+
+.mobileNav a {
+  text-decoration: none;
+  color: black;
+  margin: 16px 0;
+}
+
+.mobileNav a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.mobileNav img {
+  height: 24px;
+  width: 24px;
+}
+
+/**************************/
 /* PROJECT SECTION - GRID */
 /**************************/
 .project {
