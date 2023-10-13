@@ -59,6 +59,10 @@ body {
   display: none;
 }
 
+.navbar .hamburger:hover {
+  cursor: pointer;
+}
+
 .bar1,
 .bar2,
 .bar3 {
@@ -77,6 +81,7 @@ body {
   width: 80px;
   height: 100vh;
   background-color: white;
+  padding: 16px;
 
   display: flex;
   flex-direction: column;
@@ -85,10 +90,14 @@ body {
 
   position: fixed;
   top: 0;
-  right: 0;
+  right: -160px;
   z-index: 5;
 
-  padding: 16px;
+  transition: transform 0.5s;
+}
+
+.openMobileNav {
+  transform: translateX(-160px);
 }
 
 .mobileNav a {
