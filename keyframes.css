@@ -26,3 +26,15 @@
     transform: rotate(-45deg) translate(4px, -10px);
   }
 }
+
+.animateBar1 {
+  animation: rotateBar1 1s forwards;
+}
+
+.animateBar2 {
+  animation: fadeBar2 1s forwards;
+}
+
+.animateBar3 {
+  animation: rotateBar3 1s forwards;
+}
