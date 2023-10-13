@@ -49,6 +49,25 @@ body {
 }
 
 /**************************/
+/* HAMBURGER MENU */
+/**************************/
+
+.navbar .hamburger {
+  height: 50px;
+  width: 50px;
+
+  display: none;
+}
+
+.navbar .bar {
+  background-color: black;
+  height: 4px;
+  width: 36px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+/**************************/
 /* PROJECT SECTION - GRID */
 /**************************/
 .project {
